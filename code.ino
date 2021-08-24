@@ -2,9 +2,9 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-char auth[]="GVCzjGAWVkHohlDso5z1H6oraO1kin_N";
-char ssid[]="Vikalp 2G";
-char pass[]="9648280770";
+char auth[]="";
+char ssid[]="";
+char pass[]="";
 BLYNK_WRITE(V1)
 {
   int pinValue = param.asInt();
